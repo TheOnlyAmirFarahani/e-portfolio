@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reflections — Amir Farahani</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="shell">
+
+  <aside class="sidebar">
+    <div style="display:flex; align-items:center; justify-content:space-between; width:100%;">
+      <div>
+        <a href="index.html" class="brand">Amir Farahani</a>
+        <span class="brand-tag">CS Student — ePortfolio</span>
+      </div>
+      <button class="mobile-bar" aria-label="Toggle navigation">Menu ☰</button>
+    </div>
+    <nav class="site-nav" aria-label="Main navigation">
+      <span class="nav-group-label">Start here</span>
+      <ul><li><a href="index.html">Home / About Me</a></li></ul>
+      <span class="nav-group-label">Portfolio</span>
+      <ul>
+        <li><a href="career.html">Career</a></li>
+        <li><a href="goals.html">Goals &amp; Portfolios</a></li>
+        <li><a href="reflections.html">Reflections</a></li>
+        <li><a href="projects.html">Course &amp; Personal Projects</a></li>
+      </ul>
+    </nav>
+    <div class="sidebar-footer">
+      theamirfarahani@gmail.com<br>
+      Toronto, Ontario<br>
+      <a href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a> ·
+      <a href="#" target="_blank" rel="noopener">LinkedIn ↗</a>
+    </div>
+  </aside>
+
+  <main>
+    <div class="page">
+      <span class="eyebrow">Section D — Reflections</span>
+      <h1>Co-op Research Journal</h1>
+      <p class="lede">Weekly reflections from my undergraduate research placement with Prof. Marios Fokaefs, May–August 2026. Learning objectives: get better at asking for and using feedback, learn performance modelling and Palladio, and learn how to research and write abstracts.</p>
+
+      <div class="week-entry">
+        <span class="week-label">Week 1</span>
+        <div class="reflect-block"><span class="reflect-label">Retell</span><p>Read through the codebases of several existing lab projects and generated sequence diagrams for one of them.</p></div>
+        <div class="reflect-block"><span class="reflect-label">Relate</span><p>Learned Docker for containerizing applications into microservices, and AppMap, a tool for capturing and analyzing the runtime behaviour of a JVM application.</p></div>
+        <div class="reflect-block"><span class="reflect-label">Reflect</span><p>The workload was light, which made the week easy, but my first diagrams didn't actually use AppMap, so I had to redo them in week two. I learned that I forget tasks if I don't write them down — a small process fix that mattered more than it sounds.</p></div>
+        <div class="tag-row"><span class="tag">Use of Engineering Tools</span><span class="tag">Investigation</span></div>
+      </div>
+
+      <div class="week-entry">
+        <span class="week-label">Week 2</span>
+        <div class="reflect-block"><span class="reflect-label">Retell</span><p>Regenerated the sequence diagrams using AppMap for consistency, then generated a second set of diagrams using an LLM.</p></div>
+        <div class="reflect-block"><span class="reflect-label">Relate</span><p>Applied my AppMap knowledge in practice, and learned how to generate PlantUML diagrams from an LLM — including how to write prompts that actually produce usable output.</p></div>
+        <div class="reflect-block"><span class="reflect-label">Reflect</span><p>My AI-generated diagrams had issues at first. My supervisor's advice was simple — adjust the prompts and experiment — and that worked. I learned that I'm able to take initiative when a first attempt doesn't land.</p></div>
+        <div class="tag-row"><span class="tag">Use of Engineering Tools</span><span class="tag">Design</span></div>
+      </div>
+
+      <div class="week-entry">
+        <span class="week-label">Week 3</span>
+        <div class="reflect-block"><span class="reflect-label">Retell</span><p>Generated more diagrams using different techniques and put together a slideshow to present progress to my supervisor.</p></div>
+        <div class="reflect-block"><span class="reflect-label">Relate</span><p>Learned how to build a presentation specifically for showing research progress, not just results.</p></div>
+        <div class="reflect-block"><span class="reflect-label">Reflect</span><p>My supervisor said the diagrams were in good shape and asked me to analyze where each LLM was right or wrong the following week. I noticed I get a bit nervous while presenting — something worth working on directly, which is part of why I set a written communication SMART goal.</p></div>
+        <div class="tag-row"><span class="tag">Communication Skills</span></div>
+      </div>
+
+      <div class="week-entry">
+        <span class="week-label">Week 4</span>
+        <div class="reflect-block"><span class="reflect-label">Retell</span><p>Analyzed the diagrams from the previous week, updated the slideshow with results, and got more familiar with the project's codebase.</p></div>
+        <div class="reflect-block"><span class="reflect-label">Relate</span><p>Learned how to compare LLM-generated diagrams against AppMap output to judge quality, and how to present findings concisely.</p></div>
+        <div class="reflect-block"><span class="reflect-label">Reflect</span><p>My supervisor was satisfied with the work, and I think this was the week I actually learned how to take feedback and turn it into better output rather than just noting it and moving on.</p></div>
+        <div class="tag-row"><span class="tag">Problem Analysis</span><span class="tag">Communication Skills</span></div>
+      </div>
+
+      <div class="week-entry">
+        <span class="week-label">Week 5</span>
+        <div class="reflect-block"><span class="reflect-label">Retell</span><p>Got up to speed on "devbot," a tool built by previous researchers to automate LLM-based diagram generation, and modified its source code to add features my research needed.</p></div>
+        <div class="reflect-block"><span class="reflect-label">Relate</span><p>Learned the API needed to connect to LLMs and generate artifacts programmatically, and learned how to fork a project on GitHub and add custom features cleanly.</p></div>
+        <div class="reflect-block"><span class="reflect-label">Reflect</span><p>My supervisor confirmed the changes would increase productivity and produce more uniform results for the lab. I learned that I'm able to extend and adapt existing tools, not just use them as-is.</p></div>
+        <div class="tag-row"><span class="tag">Use of Engineering Tools</span><span class="tag">Design</span></div>
+      </div>
+
+      <div class="week-entry">
+        <span class="week-label">Week 6</span>
+        <div class="reflect-block"><span class="reflect-label">Retell</span><p>Used my devbot fork to generate diagrams across different AI models, analyzed the results, and built a slideshow for the weekly meeting.</p></div>
+        <div class="reflect-block"><span class="reflect-label">Relate</span><p>Practiced using the tool I'd built to generate artifacts, then analyzing those artifacts for quality.</p></div>
+        <div class="reflect-block"><span class="reflect-label">Reflect</span><p>My supervisor was content with the quality of the output. This was the week I recognized my own problem-solving and analytical skills as a real strength, not just something I assumed about myself.</p></div>
+        <div class="tag-row"><span class="tag">Problem Analysis</span></div>
+      </div>
+
+      <div class="week-entry">
+        <span class="week-label">Week 7</span>
+        <div class="reflect-block"><span class="reflect-label">Retell</span><p>Started learning performance modelling at a theoretical level, along with a new tool: Palladio Bench.</p></div>
+        <div class="reflect-block"><span class="reflect-label">Relate</span><p>Learned what performance modelling actually is, conceptually, before touching the tooling.</p></div>
+        <div class="reflect-block"><span class="reflect-label">Reflect</span><p>I learned that I can pick up genuinely complex, unfamiliar topics on my own with only light guidance — which matters, since most of my research is self-directed.</p></div>
+        <div class="tag-row"><span class="tag">Knowledge Base for Engineering</span><span class="tag">Life-Long Learning</span></div>
+      </div>
+
+      <div class="week-entry">
+        <span class="week-label">Week 8</span>
+        <div class="reflect-block"><span class="reflect-label">Retell</span><p>Went deeper into Palladio Bench, learned to run simulations against example models, and started building my own models.</p></div>
+        <div class="reflect-block"><span class="reflect-label">Relate</span><p>Learned to use Palladio for both running simulations and constructing performance models from scratch.</p></div>
+        <div class="reflect-block"><span class="reflect-label">Reflect</span><p>Confirmed the same lesson from week 7 in a more hands-on way: I can learn complex new tools through direct experimentation, not just guided instruction.</p></div>
+        <div class="tag-row"><span class="tag">Use of Engineering Tools</span><span class="tag">Design</span></div>
+      </div>
+
+      <hr class="divider">
+
+      <h2>Reflection on Learning Objectives</h2>
+      <div class="card card-alt">
+        <h3>How well did I meet my objectives?</h3>
+        <p>I think I genuinely learned how to use feedback to improve my work — a skill I can keep sharpening, but one that's already visibly better, since my supervisor was consistently satisfied after I applied his advice. On Palladio, I've got the fundamentals down: I can run simulations and build models, which was the goal, even though the tool has plenty of features beyond what my research needs. Research and abstract writing is the objective I haven't met yet — I understand the basics of collecting and analyzing objective evidence, but I haven't started my abstract, since I'm still only in the first half of my placement.</p>
+
+        <h3>What I'm carrying forward</h3>
+        <p>The most valuable things I picked up were soft skills, not tools: turning feedback into concrete improvements, presenting progress concisely, and working independently on unfamiliar problems without needing constant direction. Learning to spot my own weak points quickly and adapt is the piece of this placement I expect to matter most in the long run.</p>
+        <div class="tag-row"><span class="tag">Life-Long Learning</span><span class="tag">Professionalism</span></div>
+      </div>
+    </div>
+
+    <footer class="page-footer">
+      <span>Amir Farahani · theamirfarahani@gmail.com</span>
+      <span>Last updated: July 25, 2026</span>
+    </footer>
+  </main>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>

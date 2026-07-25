@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Amir Farahani</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="shell">
+
+  <aside class="sidebar">
+    <div style="display:flex; align-items:center; justify-content:space-between; width:100%;">
+      <div>
+        <a href="index.html" class="brand">Amir Farahani</a>
+        <span class="brand-tag">CS Student — ePortfolio</span>
+      </div>
+      <button class="mobile-bar" aria-label="Toggle navigation">Menu ☰</button>
+    </div>
+    <nav class="site-nav" aria-label="Main navigation">
+      <span class="nav-group-label">Start here</span>
+      <ul><li><a href="index.html">Home / About Me</a></li></ul>
+      <span class="nav-group-label">Portfolio</span>
+      <ul>
+        <li><a href="career.html">Career</a></li>
+        <li><a href="goals.html">Goals &amp; Portfolios</a></li>
+        <li><a href="reflections.html">Reflections</a></li>
+        <li><a href="projects.html">Course &amp; Personal Projects</a></li>
+      </ul>
+    </nav>
+    <div class="sidebar-footer">
+      theamirfarahani@gmail.com<br>
+      Toronto, Ontario<br>
+      <a href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a> ·
+      <a href="#" target="_blank" rel="noopener">LinkedIn ↗</a>
+    </div>
+  </aside>
+
+  <main>
+    <div class="page">
+      <span class="eyebrow">Section E — Course &amp; Personal Projects</span>
+      <h1>Projects</h1>
+      <p class="lede">A short list, on purpose — these are the projects that best show how I actually work, not everything I've touched.</p>
+
+      <div class="card project-card">
+        <span class="eyebrow" style="margin-bottom:0.2rem;">Project Lead &amp; Software Developer</span>
+        <h3>Simple Chess Engine</h3>
+        <p>Built a chess engine in Java, designed around clean object-oriented architecture from the start rather than bolted on afterward. Wrote unit tests specifically to assess and optimize engine performance, and kept documentation of the codebase accurate and current throughout.</p>
+        <p style="color:var(--ink-soft); font-size:0.95rem;"><strong>Reflection:</strong> This project is where I first had to balance correctness against performance under a real constraint — a slow engine is a useless engine. Structuring it with OOP principles first made it far easier to isolate and fix performance bottlenecks later without rewriting core logic.</p>
+        <div class="tag-row">
+          <span class="tag">Design</span>
+          <span class="tag">Use of Engineering Tools</span>
+          <span class="tag">Knowledge Base for Engineering</span>
+        </div>
+        <div class="project-links"><a href="https://github.com/TheOnlyAmirFarahani/ChessEngine" target="_blank" rel="noopener">github.com/TheOnlyAmirFarahani/ChessEngine ↗</a></div>
+      </div>
+
+      <div class="card project-card">
+        <span class="eyebrow" style="margin-bottom:0.2rem;">Software Developer</span>
+        <h3>Python Password Manager</h3>
+        <p>Built a password manager in Python with a SQLite backend to securely store and retrieve account credentials. Applied OOP principles to design the system, used data structures and algorithms knowledge to implement efficient CRUD operations, and used SQL directly for persistent, structured storage.</p>
+        <p style="color:var(--ink-soft); font-size:0.95rem;"><strong>Reflection:</strong> This project came directly out of the belief I write about on my <a href="index.html">home page</a> — that privacy-relevant tools should be auditable, not just trusted. Building it open source and keeping the storage and retrieval logic simple enough to actually review was the point, not an afterthought.</p>
+        <div class="tag-row">
+          <span class="tag">Design</span>
+          <span class="tag">Problem Analysis</span>
+          <span class="tag">Ethics and Equity</span>
+        </div>
+        <div class="project-links"><a href="https://github.com/TheAmirFarahani/Password-Manager" target="_blank" rel="noopener">github.com/TheAmirFarahani/Password-Manager ↗</a></div>
+      </div>
+
+      <div class="card project-card">
+        <span class="eyebrow" style="margin-bottom:0.2rem;">Full Stack Developer</span>
+        <h3>Aperta Academia</h3>
+        <p>A simple web forum built with Python and Django. Designed and implemented the front-end with HTML, CSS, and JavaScript with an emphasis on responsive interactions, then deployed the finished application to PythonAnywhere.</p>
+        <p style="color:var(--ink-soft); font-size:0.95rem;"><strong>Reflection:</strong> My first real end-to-end project — backend, frontend, and deployment all in one. It taught me how much of "full stack" work is really about making decisions consistently across layers rather than being an expert in any single one.</p>
+        <div class="tag-row">
+          <span class="tag">Design</span>
+          <span class="tag">Communication Skills</span>
+        </div>
+        <div class="project-links"><a href="https://apertaacademia.pythonanywhere.com/" target="_blank" rel="noopener">apertaacademia.pythonanywhere.com ↗</a></div>
+      </div>
+    </div>
+
+    <footer class="page-footer">
+      <span>Amir Farahani · theamirfarahani@gmail.com</span>
+      <span>Last updated: July 25, 2026</span>
+    </footer>
+  </main>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
